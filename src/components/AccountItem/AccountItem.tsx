@@ -9,7 +9,7 @@ const AccountItem: React.FC<{}> = () => {
         <EmailIcon className="app__account-item__email-icon" size={24}/>
         <NotificationIcon className="app__account-item__notification-icon" size={24}/>
         <Link className="app__account-item__account-avatar" to={"/dashboard"}>
-            <img src="https://static.bongda24h.vn/medias/standard/2022/5/24/erik-ten-hag-phat-bieu-bat-ngo-ve-harry-maguire.png" alt="Harry 80M" />
+            <img src="https://i.pinimg.com/originals/a2/f6/4a/a2f64a1ac3ae01c910b4717efcacc2dd.jpg" alt="Meo Cry" />
         </Link>
     </div>
   )

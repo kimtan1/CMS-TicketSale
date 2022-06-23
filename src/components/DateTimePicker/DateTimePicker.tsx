@@ -1,4 +1,4 @@
-import { CalendarIcon, ClockIcon } from 'components/Icons';
+import { CalendarIcon, ClockIcon } from '../Icons';
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import './DateTimePicker.scss';
 
@@ -29,7 +29,7 @@ const DateTimePicker: React.FC<{ displayMode?: EDisplayMode; date?: Date; setDat
             setSelectedDateString('dd/mm/yyyy');
             setSelectedTimeString('hh:mm:ss');
         }
-    }, [selectedDateTime]);
+    }, [selectedDateTime]);// eslint-disable-line react-hooks/exhaustive-deps
 
     const setDisplayDate = (date: Date): void => {
         switch (displayMode) {

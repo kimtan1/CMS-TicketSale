@@ -21,7 +21,7 @@ const Graph: React.FC<{ height?: number }> = ({ height = 320 }) => {
         datasets: [
             {
                 label: '',
-                data: [140, 180, 150, 220, 250, 210, 180],
+                data: [50, 120, 300, 220, 250, 330, 180],
                 fill: true,
                 lineTension: 0.5,
                 backgroundColor: 'rgba(255, 138, 72, .2)',
